@@ -18,7 +18,7 @@ import { getParams, uploadImage } from "./js/browser"
 // isLogin()
 
 document.onclick = function() {
-    Register("李永辉","123123","男").then(ret => {
+    Register("yone","123123","男").then(ret => {
         console.log(ret)
     }).catch(err => {
         console.log(err)
